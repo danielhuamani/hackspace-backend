@@ -30,8 +30,8 @@ function generarAmigos(){
 
 app.get("/amigos", function(req, res){
 	var limite = loadash.random(5,10)
-	var usuarios = loadash.times(limite, generarAmigos)
-	res.json(usuarios);
+	var amigos = loadash.times(limite, generarAmigos)
+	res.json(amigos);
 });
 
 
