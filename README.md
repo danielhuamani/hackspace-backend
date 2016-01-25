@@ -6,4 +6,5 @@ Instalacion de las dependencias
 -----------------------------
 
 run Reto 1 : node ./semana-1/reto
+-----------------------------
 run Reto 2 : node ./semana-2/reto
